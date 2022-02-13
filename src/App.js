@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './assets/css/style.css';
 import Header from './components/Header';
-import Category from './components/Category';
+import Portfolio from './components/Portfolio';
 import Footer from './components/Footer';
 
 function App() {
@@ -34,7 +34,7 @@ function App() {
         setContactSelected={setContactSelected}
       ></Header>
       <main>
-        <Category currentCategory={currentCategory}></Category>
+        <Portfolio currentCategory={currentCategory}></Portfolio>
       </main>
       <Footer />
     </div>
