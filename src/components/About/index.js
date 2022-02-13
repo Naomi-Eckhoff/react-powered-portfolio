@@ -13,8 +13,7 @@ function About() {
           My name is Naomi Eckhoff. I've been around computers my entire life. That's not saying much
           anymore, but if it helps my first operating system was ms-dos. It pretty much taught me how to read.
           I've worked on a variety of projects off and on throughout the years. Mostly videogame hacking, but
-          every once in a while I'd do something productive. Below this you'll find a few of my past projects.
-          I have a favorite, but, well, hacker gotta hack.
+          every once in a while I'd do something productive. The links above will lead you to some of my past projects.
         </p>
       </div>
     </section>

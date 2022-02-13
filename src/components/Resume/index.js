@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Footer() {
+function Resume() {
   return (
     <section id="resume" class="my-resume">
       <div class="leftHeader">
@@ -19,4 +19,4 @@ function Footer() {
 
 }
 
-export default Footer;
+export default Resume;

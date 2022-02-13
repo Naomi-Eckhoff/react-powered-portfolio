@@ -5,7 +5,7 @@ import Horiseon from '../../assets/images/Horiseon.jpg';
 import mealAndMovie from '../../assets/images/mealAndMovie.jpg';
 import studious from '../../assets/images/studious.jpg';
 
-function Project() {
+function Projects() {
   return (
     <section id="work" class="past-work">
       <div class="leftHeader">
@@ -59,4 +59,4 @@ function Project() {
 
 }
 
-export default Project;
+export default Projects;

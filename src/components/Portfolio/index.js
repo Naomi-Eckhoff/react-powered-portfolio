@@ -4,7 +4,7 @@ import Projects from '../Projects';
 import Resume from '../Resume';
 import Contact from '../Contact';
 
-function Category(props) {
+function Portfolio(props) {
   const { currentCategory } = props;
 
   if (currentCategory.name === 'About Me') {
@@ -29,4 +29,4 @@ function Category(props) {
   };
 }
 
-export default Category;
+export default Portfolio;
