@@ -36,6 +36,7 @@ function App() {
       <main>
         <Portfolio currentCategory={currentCategory}></Portfolio>
       </main>
+      <br></br>
       <Footer />
     </div>
   );
