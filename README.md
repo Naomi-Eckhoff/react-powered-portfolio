@@ -7,7 +7,7 @@
   
   ## Link
 
- 
+ https://naomi-eckhoff.github.io/react-powered-portfolio/
 
   ## Screenshot
     
