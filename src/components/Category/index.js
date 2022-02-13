@@ -1,7 +1,7 @@
 import React from 'react';
 import About from '../About'
-import Projects from '../Resume'
-import Resume from '../Projects'
+import Projects from '../Projects'
+import Resume from '../Resume'
 
 function Category(props) {
   const { currentCategory } = props;
