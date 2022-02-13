@@ -7,11 +7,11 @@ import Footer from './components/Footer';
 function App() {
   const [categories] = useState([
     {
-      name: 'About',
+      name: 'About Me',
       description: 'About Me'
     },
     {
-      name: 'Project',
+      name: 'Projects',
       description: 'My Projects'
     },
     {
