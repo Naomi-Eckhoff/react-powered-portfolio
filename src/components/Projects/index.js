@@ -51,9 +51,6 @@ function Project() {
             <a href="https://protected-dusk-79081.herokuapp.com/">
               <img src={studious} alt="" />
             </a>
-            <a href="https://github.com/kcbryan10/Studious">
-              Github
-            </a>
           </div>
         </div>
       </div>
