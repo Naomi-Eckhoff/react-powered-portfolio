@@ -10,7 +10,7 @@ function Footer() {
         <p>
           This is a link to the
           <a
-            href="https://docs.google.com/document/d/1swPEuC-1ruc4TSuBZE79IPWSdPQ_Vo--Rn-IbtTwqak/edit?usp=sharing">resume</a>
+            href="https://docs.google.com/document/d/1swPEuC-1ruc4TSuBZE79IPWSdPQ_Vo--Rn-IbtTwqak/edit?usp=sharing"> resume </a>
           I feel only slightly uncomfortable with being publicly available
         </p>
       </div>
