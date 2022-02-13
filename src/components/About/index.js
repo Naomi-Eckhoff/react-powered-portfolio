@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Footer() {
+function About() {
   return (
     <section id="about-me" class="biography">
       <div class="leftHeader">
@@ -21,4 +21,4 @@ function Footer() {
 
 }
 
-export default Footer;
+export default About;
