@@ -1,7 +1,8 @@
 import React from 'react';
-import About from '../About'
-import Projects from '../Projects'
-import Resume from '../Resume'
+import About from '../About';
+import Projects from '../Projects';
+import Resume from '../Resume';
+import Contact from '../Contact';
 
 function Category(props) {
   const { currentCategory } = props;
@@ -19,6 +20,11 @@ function Category(props) {
   if (currentCategory.name === 'Resume') {
     return (
       <Resume />
+    )
+  };
+  if (currentCategory.name === 'Contact Information') {
+    return (
+      <Contact />
     )
   };
 }

@@ -33,6 +33,9 @@ header nav ul li span {
   color:blue;
 }
 
+header nav ul li span:hover {
+  color: purple;
+}
 
 section {
   width: 99%;
@@ -98,4 +101,3 @@ h3 {
 .my-contact {
   margin-bottom: 5vw;
 }
-
