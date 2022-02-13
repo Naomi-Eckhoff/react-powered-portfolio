@@ -27,21 +27,6 @@ function Navigation(props) {
             </span>
           </li>
         ))}
-        <li>
-          <a data-testid="about" href="#about-me" onClick={() => setContactSelected(false)}>
-            About Me
-          </a>
-        </li>
-        <li>
-          <a href="#work">
-            My Work
-          </a>
-        </li>
-        <li>
-          <a href="#resume">
-            Resume
-          </a>
-        </li>
       </ul>
     </nav>
   )
