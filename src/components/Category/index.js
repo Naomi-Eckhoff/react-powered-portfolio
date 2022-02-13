@@ -1,9 +1,10 @@
 import React from 'react';
 
-function Category() {
+function Category(props) {
+  const { currentCategory } = props;
   return (
     <div>
-      <span>place holder</span>
+      <h1>{currentCategory.name}</h1>
     </div>
   )
 

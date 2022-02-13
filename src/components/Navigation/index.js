@@ -24,6 +24,7 @@ function Navigation(props) {
                 setContactSelected(false);
               }}
             >
+              <a href={`#{category.name}`}>{category.name}</a>
             </span>
           </li>
         ))}
