@@ -1,21 +1,22 @@
 {
   "files": {
     "main.css": "/react-powered-portfolio/static/css/main.98ddfeea.css",
-    "main.js": "/react-powered-portfolio/static/js/main.759339fb.js",
+    "main.js": "/react-powered-portfolio/static/js/main.a9997887.js",
     "static/js/787.76e9f1fb.chunk.js": "/react-powered-portfolio/static/js/787.76e9f1fb.chunk.js",
     "static/media/warCalculator.jpg": "/react-powered-portfolio/static/media/warCalculator.d7da9d5ac8efdf5ca1a2.jpg",
     "static/media/Horiseon.jpg": "/react-powered-portfolio/static/media/Horiseon.e0a82707a69fe8415008.jpg",
     "static/media/studious.jpg": "/react-powered-portfolio/static/media/studious.8c43a21c7e4f1f0f9788.jpg",
+    "static/media/subtrackt.jpg": "/react-powered-portfolio/static/media/subtrackt.26e0b2de8a4b8aa9c3ae.jpg",
     "static/media/filterDatabase.jpg": "/react-powered-portfolio/static/media/filterDatabase.a64989fae3bc565ec8c4.jpg",
     "static/media/mealAndMovie.jpg": "/react-powered-portfolio/static/media/mealAndMovie.dc91327079beee967354.jpg",
     "static/media/myPicture.jpg": "/react-powered-portfolio/static/media/myPicture.c4904faeabe40f8aa81b.jpg",
     "index.html": "/react-powered-portfolio/index.html",
     "main.98ddfeea.css.map": "/react-powered-portfolio/static/css/main.98ddfeea.css.map",
-    "main.759339fb.js.map": "/react-powered-portfolio/static/js/main.759339fb.js.map",
+    "main.a9997887.js.map": "/react-powered-portfolio/static/js/main.a9997887.js.map",
     "787.76e9f1fb.chunk.js.map": "/react-powered-portfolio/static/js/787.76e9f1fb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.98ddfeea.css",
-    "static/js/main.759339fb.js"
+    "static/js/main.a9997887.js"
   ]
 }
