@@ -4,6 +4,7 @@ import warCalculator from '../../assets/images/warCalculator.jpg';
 import Horiseon from '../../assets/images/Horiseon.jpg';
 import mealAndMovie from '../../assets/images/mealAndMovie.jpg';
 import studious from '../../assets/images/studious.jpg';
+import subtrackt from '../../assets/images/subtrackt.jpg';
 
 function Projects() {
   return (
@@ -50,6 +51,11 @@ function Projects() {
           <div>
             <a href="https://protected-dusk-79081.herokuapp.com/">
               <img src={studious} alt="" />
+            </a>
+          </div>
+          <div>
+            <a href="https://quiet-wildwood-89723.herokuapp.com/">
+              <img src={subtrackt} alt="" />
             </a>
           </div>
         </div>
