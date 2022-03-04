@@ -31,33 +31,42 @@ function Projects() {
 
         <h3> My Other Projects</h3>
         <div class="other-projects">
-          <div>
-            <a
-              href="https://docs.google.com/spreadsheets/d/1WPKTcP0T9pA5KS8s5LACuwLPzzkwvt4Z_Opq-1ydHnc/edit?usp=sharing">
-              <img src={warCalculator}
-                alt="A google sheets document written to calculate optimal troop formations for an online game" />
-            </a>
-          </div>
-          <div>
-            <a href="https://github.com/Naomi-Eckhoff/horiseon-landing-page-challenge-1">
-              <img src={Horiseon} alt="Horiseon html refactor" />
-            </a>
-          </div>
-          <div>
-            <a href="https://baxters4karma.github.io/recipe-maker/">
-              <img src={mealAndMovie} alt="Meal and Movie Group Project" />
-            </a>
-          </div>
-          <div>
-            <a href="https://protected-dusk-79081.herokuapp.com/">
-              <img src={studious} alt="" />
-            </a>
-          </div>
-          <div>
-            <a href="https://quiet-wildwood-89723.herokuapp.com/">
-              <img src={subtrackt} alt="" />
-            </a>
-          </div>
+          <table>
+            <div>
+              <a
+                href="https://docs.google.com/spreadsheets/d/1WPKTcP0T9pA5KS8s5LACuwLPzzkwvt4Z_Opq-1ydHnc/edit?usp=sharing">
+                <img src={warCalculator}
+                  alt="A google sheets document written to calculate optimal troop formations for an online game" />
+              </a>
+              <p>Is this gonna work?</p>
+            </div>
+            <div>
+              <a href="https://github.com/Naomi-Eckhoff/horiseon-landing-page-challenge-1">
+                <img src={Horiseon} alt="Horiseon html refactor" />
+              </a>
+              <p>How abou you?</p>
+            </div>
+            <div>
+              <a href="https://baxters4karma.github.io/recipe-maker/">
+                <img src={mealAndMovie} alt="Meal and Movie Group Project" />
+              </a>
+              <p>maybe</p>
+            </div>
+            <div>
+              <a href="https://protected-dusk-79081.herokuapp.com/">
+                <img src={studious} alt="" />
+              </a>
+              <p> looks promising</p>
+            </div>
+            <div>
+              <a href="https://quiet-wildwood-89723.herokuapp.com/">
+                <img src={subtrackt} alt="" />
+              </a>
+              <p>Subtrackt was a group project using the MERN stack to track subscriptions and find tv shows and movies that are available on those subscriptions</p>
+              <a href="https://quiet-wildwood-89723.herokuapp.com/" target="_blank"><p>Deployed Link</p></a>
+              <a href="https://github.com/ramantv/Subscription-Tracker" target="_blank"><p>Repository Link</p></a>
+            </div>
+          </table>
         </div>
       </div>
     </section>
