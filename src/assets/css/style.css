@@ -86,10 +86,11 @@ h3 {
   margin: 5vw 0 0 0;
 }
 
+
 .other-projects img {
   width: 45%;
   height: auto;
-  margin: 1vw 1vw 1vw 1vw;
+  margin: 1vw 1vw 1vw 22vw;
   padding: 0.5vw;
   background-color: black;
 }
@@ -106,3 +107,4 @@ footer {
   text-align: center;
   border-top: 0.2vw solid black;
 }
+
