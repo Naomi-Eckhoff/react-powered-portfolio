@@ -1,32 +1,60 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
-import { Navbar, Nav, Container, Modal, Tab } from 'react-bootstrap';
 import filterDatabase from '../../assets/images/filterDatabase.jpg';
 import warCalculator from '../../assets/images/warCalculator.jpg';
 import Horiseon from '../../assets/images/Horiseon.jpg';
 import mealAndMovie from '../../assets/images/mealAndMovie.jpg';
 import studious from '../../assets/images/studious.jpg';
+import Modal from 'react-bootstrap/Modal'
+import ModalHeader from 'react-bootstrap/ModalHeader'
+import ModalBody from 'react-bootstrap/ModalBody'
+import ModalFooter from 'react-bootstrap/ModalFooter'
+import Button from 'react-bootstrap/Button'
 
 
-const AppNavbar = () => {
+
+const Projects = () => {
   // set modal display state
-  const [showModal, setShowModal] = useState(false);
+  const [open, setOpen] = useState(false);
+  const handleOpen = () => setOpen(true);
+  const handleClose = () => setOpen(false);
 
   return (
     <>
-      <section id="work" class="past-work">
-        <div class="leftHeader">
+      <section id="work" className="past-work">
+        <div className="leftHeader">
           <h2>My Work</h2>
         </div>
         <div>
           <h3> My Favorite Creation</h3>
 
-          <Nav.Link onClick={() => setShowModal(true)}>
-            <img src={filterDatabase} class="top-project" />
-          </Nav.Link>
+          <Button onClick={handleOpen}>
+            <img src={filterDatabase} className="top-project" alt="AAAAAAAAAAAAAAAAA" />
+          </Button>
+          {/* set modal data up */}
+          <Modal
+            fade={false}
+            style={{ width: "200px", display: "block" }}
+            open={open}
+            onClose={handleClose}
+          >
+            {/* tab container to do either signup or login component */}
 
+            <ModalHeader>
+              test
+              <Modal.Title>
+                REEEEE
+              </Modal.Title>
+            </ModalHeader>
+            <ModalBody>
+              AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+            </ModalBody>
+            <ModalFooter>
+              WHY U NOT WROK!?
+            </ModalFooter>
+
+          </Modal>
           <h3> My Other Projects</h3>
-          <div class="other-projects">
+          <div className="other-projects">
             <div>
               <a
                 href="https://docs.google.com/spreadsheets/d/1WPKTcP0T9pA5KS8s5LACuwLPzzkwvt4Z_Opq-1ydHnc/edit?usp=sharing">
@@ -51,33 +79,13 @@ const AppNavbar = () => {
             </div>
           </div>
 
+
+
+
         </div>
       </section>
-      {/* set modal data up */}
-      <Modal>
-        {/* tab container to do either signup or login component */}
-        <Tab.Container defaultActiveKey='login'>
-          <Modal.Header closeButton>
-            <Modal.Title id='signup-modal'>
-              <Nav variant='pills'>
-                <Nav.Item>
-                  <Nav.Link>Login</Nav.Link>
-                </Nav.Item>
-                <Nav.Item>
-                  <Nav.Link>Sign Up</Nav.Link>
-                </Nav.Item>
-              </Nav>
-            </Modal.Title>
-          </Modal.Header>
-          <Modal.Body>
-            <Tab.Content>
-
-            </Tab.Content>
-          </Modal.Body>
-        </Tab.Container>
-      </Modal>
     </>
   );
 };
 
-export default AppNavbar;
+export default Projects;
