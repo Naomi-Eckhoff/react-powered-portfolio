@@ -28,7 +28,7 @@ function Projects() {
           wall lost that
           battle.
         </p>
-
+        <a href="https://github.com/Naomi-Eckhoff/filter-condition-access/tree/main" target="_blank"><p>Repository Link</p></a>
         <h3> My Other Projects</h3>
         <div class="other-projects">
           <table>
@@ -40,8 +40,7 @@ function Projects() {
                   alt="A google sheets document written to calculate optimal troop formations for an online game" />
               </a>
               <p>Subtrackt was a group project using the MERN stack to track subscriptions and find tv shows and movies that are available on those subscriptions</p>
-              <a href="https://quiet-wildwood-89723.herokuapp.com/" target="_blank"><p>Deployed Link</p></a>
-              <a href="https://github.com/ramantv/Subscription-Tracker" target="_blank"><p>Repository Link</p></a>
+              <a href="https://docs.google.com/spreadsheets/d/1WPKTcP0T9pA5KS8s5LACuwLPzzkwvt4Z_Opq-1ydHnc/edit?usp=sharing" target="_blank"><p>Deployed Link</p></a>
             </div>
             <div>
               <h3>Subtrackt</h3>
@@ -50,8 +49,8 @@ function Projects() {
                 <img src={mealAndMovie} alt="Meal and Movie Group Project" />
               </a>
               <p>Subtrackt was a group project using the MERN stack to track subscriptions and find tv shows and movies that are available on those subscriptions</p>
-              <a href="https://quiet-wildwood-89723.herokuapp.com/" target="_blank"><p>Deployed Link</p></a>
-              <a href="https://github.com/ramantv/Subscription-Tracker" target="_blank"><p>Repository Link</p></a>
+              <a href="https://baxters4karma.github.io/recipe-maker/" target="_blank"><p>Deployed Link</p></a>
+              <a href="https://github.com/christinedbaxter/recipe-maker" target="_blank"><p>Repository Link</p></a>
 
             </div>
             <div>
@@ -61,8 +60,8 @@ function Projects() {
                 <img src={studious} alt="" />
               </a>
               <p>Subtrackt was a group project using the MERN stack to track subscriptions and find tv shows and movies that are available on those subscriptions</p>
-              <a href="https://quiet-wildwood-89723.herokuapp.com/" target="_blank"><p>Deployed Link</p></a>
-              <a href="https://github.com/ramantv/Subscription-Tracker" target="_blank"><p>Repository Link</p></a>
+              <a href="https://protected-dusk-79081.herokuapp.com/" target="_blank"><p>Deployed Link</p></a>
+              <a href="https://github.com/kcbryan10/Studious" target="_blank"><p>Repository Link</p></a>
 
             </div>
             <div>
