@@ -8,9 +8,9 @@ function Contact() {
       </div>
       <div>
         <p>
-          The best way to contact me would be to shoot me an email. As a person who has been on the internet
-          before I don't feel comfortable including too much information. It's easy enough to find me as it is.
+          The best way to contact me would be to shoot me an email. If it's urgent I do enjoy recieving text messages from strangers and have been known to play the no you have the right number game.
         </p>
+        <br />
         <p>
           I can be reached at <a href="mailto:nsuibhne@gmail.com">nsuibhne@gmail.com</a>
         </p>

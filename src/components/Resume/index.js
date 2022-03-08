@@ -1,4 +1,5 @@
 import React from 'react';
+import MyResume from '../../assets/pdf/resume.pdf';
 
 function Resume() {
   return (
@@ -8,11 +9,13 @@ function Resume() {
       </div>
       <div>
         <p>
-          This is a link to the
+          Below is a copy of my resume. If you click
           <a
-            href="https://docs.google.com/document/d/1qWAw8EagYVga-gRFv5bGrEx2AtJVP_nnRWbJURWM07I/edit?usp=sharing"> resume </a>
-          I feel only slightly uncomfortable with being publicly available
+            href={MyResume} download> resume </a>
+          you can download a copy
         </p>
+        <br />
+        <embed src={MyResume} type="application/pdf" width="100%" height="1200px" />
       </div>
     </section>
   )
