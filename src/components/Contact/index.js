@@ -6,7 +6,7 @@ function Contact() {
       <div class="leftHeader">
         <h2>Contact Information</h2>
       </div>
-      <div>
+      <div class="mainContents">
         <p>
           The best way to contact me would be to shoot me an email. If it's urgent I do enjoy recieving text messages from strangers and have been known to play the no you have the right number game.
         </p>

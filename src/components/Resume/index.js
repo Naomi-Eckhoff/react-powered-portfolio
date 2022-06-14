@@ -7,7 +7,7 @@ function Resume() {
       <div class="leftHeader">
         <h2>My Resume</h2>
       </div>
-      <div>
+      <div class="mainContents">
         <p>
           Below is a copy of my resume. If you click
           <a

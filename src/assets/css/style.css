@@ -12,7 +12,7 @@ header {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  margin: 2%;
+  margin: 2% 2% 0 2%;
   align-items: baseline;
   border-style: solid;
 }
@@ -50,8 +50,7 @@ section div {
 }
 
 p {
-  font-size: 1.3vw;
-  padding: 0 0 0 .5vw;
+  font-size: 16pt;
 }
 
 h2 {
@@ -70,7 +69,11 @@ h2 {
 
 .leftHeader {
   flex: 1;
-  border-right: 0.2vw solid blueviolet;
+}
+
+.mainContents {
+  border-left: 0.2vw solid blueviolet;
+  padding: 2% 2% 2% 1%;
 }
 
 .top-project {
@@ -104,6 +107,7 @@ h3 {
 }
 
 footer {
+  padding-top: 1%;
   text-align: center;
   border-top: 0.2vw solid black;
 }

@@ -11,7 +11,7 @@ function Projects() {
       <div class="leftHeader">
         <h2>My Work</h2>
       </div>
-      <div>
+      <div class="mainContents">
         <h3> My Favorite Creation</h3>
         <h4>Access Filter Database Form Generator</h4>
         <a href="https://github.com/Naomi-Eckhoff/filter-condition-access/tree/main" target="_blank">
