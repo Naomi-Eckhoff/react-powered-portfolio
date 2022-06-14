@@ -6,7 +6,7 @@
 }
 
 body{
-  margin-bottom: 5vw;
+  margin-bottom: 5px;
 }
 header {
   display: flex;
@@ -45,7 +45,7 @@ section {
 }
 
 section div {
-  flex: 5;
+  flex: 1 80%;
   align-self: center;
 }
 
@@ -68,11 +68,15 @@ h2 {
 }
 
 .leftHeader {
-  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1 20%;
 }
 
 .mainContents {
-  border-left: 0.2vw solid blueviolet;
+  border-left: 2px solid black;
   padding: 2% 2% 2% 1%;
 }
 
@@ -100,10 +104,6 @@ h3 {
 
 .other-projects div {
   display: inline;
-}
-
-.my-contact {
-  margin-bottom: 5vw;
 }
 
 footer {
