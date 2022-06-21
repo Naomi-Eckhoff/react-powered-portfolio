@@ -38,7 +38,6 @@ header nav ul li span:hover {
 }
 
 section {
-  width: 99%;
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
@@ -54,17 +53,8 @@ p {
 }
 
 h2 {
-  font-size: 2.2vw;
+  font-size: 22pt;
   text-align: center;
-}
-
-.biography div h2 {
-  width: 75%;
-}
-
-.biography div img {
-  width: 75%;
-  height: auto;
 }
 
 .leftHeader {
@@ -73,6 +63,11 @@ h2 {
   justify-content: center;
   align-items: center;
   flex: 1 20%;
+  flex-wrap: nowrap;
+}
+
+.myImg {
+  width: 85%;
 }
 
 .mainContents {
@@ -92,7 +87,6 @@ h3 {
   text-align: center;
   margin: 5vw 0 0 0;
 }
-
 
 .other-projects img {
   width: 45%;
@@ -117,5 +111,5 @@ h4 {
 }
 
 .certifications {
-  margin: 1vw 1vw 1vw 5vw;
+  width: 85%;
 }
