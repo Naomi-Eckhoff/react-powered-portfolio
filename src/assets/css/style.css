@@ -50,7 +50,11 @@ section div {
 }
 
 p {
-  font-size: 16pt;
+  font-size: 14pt;
+}
+
+.mainContents p {
+  text-align: left;
 }
 
 h2 {
@@ -90,7 +94,7 @@ h2 {
 h3 {
   font-size: 14pt;
   text-align: center;
-  margin: 5vw 0 0 0;
+  margin: 15px 0 0 0;
 }
 
 .other-projects img {
@@ -107,7 +111,7 @@ h3 {
 footer {
   padding-top: 1%;
   text-align: center;
-  border-top: 0.2vw solid black;
+  border-top: 2px solid black;
 }
 
 h4 {
