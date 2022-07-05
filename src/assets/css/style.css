@@ -2,23 +2,23 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  background-color: lightgoldenrodyellow;
 }
 
 body{
-  margin-bottom: 5vw;
+  margin-bottom: 5px;
 }
 header {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  margin: 2%;
+  margin: 2% 2% 0 2%;
   align-items: baseline;
   border-style: solid;
 }
 
 header h1 {
-  font-size: 3vw;
+  font-size: 27pt;
+  padding-left: 1%;
 }
 
 header nav ul {
@@ -29,7 +29,7 @@ header nav ul {
 
 header nav ul li span {
   padding: 0 20px;
-  font-size: 2vw;
+  font-size: 18pt;
   color:blue;
 }
 
@@ -38,60 +38,72 @@ header nav ul li span:hover {
 }
 
 section {
-  width: 99%;
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
 }
 
 section div {
-  flex: 5;
+  flex: 1 80%;
   align-self: center;
 }
 
 p {
-  font-size: 1.3vw;
-  padding: 0 0 0 .5vw;
+  font-size: 14pt;
+}
+
+.mainContents p {
+  text-align: left;
 }
 
 h2 {
-  font-size: 2.2vw;
+  font-size: 22pt;
   text-align: center;
-}
-
-.biography div h2 {
-  width: 75%;
-}
-
-.biography div img {
-  width: 75%;
-  height: auto;
 }
 
 .leftHeader {
-  flex: 1;
-  border-right: 0.2vw solid blueviolet;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1 20%;
+  flex-wrap: nowrap;
 }
 
-.top-project {
+.myImg {
+  width: 85%;
+}
+
+.mainContents {
+  border-left: 2px solid black;
+  padding: 2% 2% 2% 1%;
+}
+
+.mainContents img {
+  width: 75%;
+}
+
+.past-work {
+  text-align: center;
+}
+
+.topProject {
   width: 85%;
   height: auto;
-  padding: 1vw 4vw 1vw 4vw;
-  margin: 1vw 3vw 1vw 3vw;
+  padding: 1% 4%;
+  margin: 1% 0;
 }
 
 h3 {
-  font-size: 1.5vw;
+  font-size: 14pt;
   text-align: center;
-  margin: 5vw 0 0 0;
+  margin: 15px 0 0 0;
 }
-
 
 .other-projects img {
   width: 45%;
   height: auto;
-  margin: 1vw 1vw 1vw 22vw;
-  padding: 0.5vw;
+  margin: 1% 0;
   background-color: black;
 }
 
@@ -99,13 +111,10 @@ h3 {
   display: inline;
 }
 
-.my-contact {
-  margin-bottom: 5vw;
-}
-
 footer {
+  padding-top: 1%;
   text-align: center;
-  border-top: 0.2vw solid black;
+  border-top: 2px solid black;
 }
 
 h4 {
@@ -113,5 +122,45 @@ h4 {
 }
 
 .certifications {
-  margin: 1vw 1vw 1vw 5vw;
+  width: 85%;
+}
+
+.carouselHolding {
+  width: 75vw;
+}
+
+.carouselHolding p {
+  margin-top: 8px;
+}
+
+.alice-carousel__dots li {
+  font-size: 15pt;
+  color: blue;
+  margin: 3px;
+  text-decoration: underline;
+}
+
+.alice-carousel__dots li:hover {
+  color: purple;
+}
+
+.alice-carousel__prev-btn {
+  color: blue;
+  text-decoration: underline;
+  text-align: center !important;
+  font-size: 14pt;
+}
+
+.alice-carousel__next-btn {
+  color: blue;
+  text-decoration: underline;
+  font-size: 14pt;
+}
+
+.alice-carousel__prev-btn:hover {
+  color: purple;
+}
+
+.alice-carousel__next-btn:hover {
+  color: purple;
 }

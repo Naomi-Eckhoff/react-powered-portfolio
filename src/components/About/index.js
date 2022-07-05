@@ -7,9 +7,9 @@ function About() {
     <section id="about-me" class="biography">
       <div class="leftHeader">
         <h2>About Me</h2>
-        <img src={myPicture} alt="This is what I look like" />
+        <img class="myImg" src={myPicture} alt="This is what I look like" />
       </div>
-      <div>
+      <div class="mainContents">
         <p>
           My name is Naomi Eckhoff. I've been around computers my entire life. That's not saying much
           anymore, but if it helps my first operating system was ms-dos. It pretty much taught me how to read.
