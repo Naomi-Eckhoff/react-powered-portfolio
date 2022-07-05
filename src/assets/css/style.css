@@ -137,7 +137,12 @@ h4 {
 .alice-carousel__dots li {
   font-size: 15pt;
   color: blue;
-  letter-spacing: 5px;
+  margin: 3px;
+  text-decoration: underline;
+}
+
+.alice-carousel__dots li:hover {
+  color: purple;
 }
 
 .alice-carousel__prev-btn {
@@ -151,4 +156,12 @@ h4 {
   color: blue;
   text-decoration: underline;
   font-size: 14pt;
+}
+
+.alice-carousel__prev-btn:hover {
+  color: purple;
+}
+
+.alice-carousel__next-btn:hover {
+  color: purple;
 }
