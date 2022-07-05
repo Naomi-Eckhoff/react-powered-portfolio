@@ -80,6 +80,10 @@ h2 {
   padding: 2% 2% 2% 1%;
 }
 
+.mainContents img {
+  width: 75%;
+}
+
 .past-work {
   text-align: center;
 }
@@ -124,4 +128,27 @@ h4 {
 
 .carouselHolding {
   width: 75vw;
+}
+
+.carouselHolding p {
+  margin-top: 8px;
+}
+
+.alice-carousel__dots li {
+  font-size: 15pt;
+  color: blue;
+  letter-spacing: 5px;
+}
+
+.alice-carousel__prev-btn {
+  color: blue;
+  text-decoration: underline;
+  text-align: center !important;
+  font-size: 14pt;
+}
+
+.alice-carousel__next-btn {
+  color: blue;
+  text-decoration: underline;
+  font-size: 14pt;
 }
