@@ -11,61 +11,140 @@ import subtrackt from '../../assets/images/subtrackt.jpg';
 const items = [
   [
     <h3>Access Filter Database Form Generator</h3>,
-    <a href="https://github.com/Naomi-Eckhoff/filter-condition-access/tree/main" rel="noopener">
+    <a href="https://github.com/Naomi-Eckhoff/filter-condition-access/tree/main" target="_blank" rel="noreferrer">
       <img src={filterDatabase}
         alt="A small program written in VB and SQL to report the status of filters" class="topProject" />
     </a>,
-    <p>
-      Favorite being a very strong word here due to the evil it crawled from. It's meant to run on Microsoft Access
-      and is written in
-      VB and SQL.
-      It takes data gathered on the conditions of roughly 300 filters then with the press of a button does all the
-      thinking for you.
-      Nothing has made me bang my head against the wall quite as hard as this one, but it is fully functional. So the
-      wall lost that
-      battle.
-    </p>,
-    <a href="https://github.com/Naomi-Eckhoff/filter-condition-access/tree/main" rel="noopener"><p>Repository Link</p></a>
+    <div>
+      <p>
+        This is my favorite project. Not necessarily because I'm proud of it, but more because it was the single most frustrating thing I've ever made.
+      </p>
+      <p>
+        It takes data gathered on the conditions of roughly 300 filters. With the press of a button marks which filters are going bad, which are bad, and creates a pdf
+        with the relevant data for the team responsible for changing them.
+      </p>
+      <p>
+        It was written using VB and SQL, but Microsoft Access limits SQL in a number of extremely frustrating ways. I cannot count the number of times I got the error message "SQL statement is too complex".
+        Since it was built to link to a form I couldn't build the tables in a way that was good as Access only lets you use one record at a time. Multiplying the filters by the data associated, without normalization,
+        results in about 8000 fields. After normalization I managed to get that down to around 1200 again not good. If it wasn't for that single record rule Access has then it would be 301 fields for storage.
+        There is an additional table that stores information on each filter that doesn't really change with around 300 records and, I think, 18 fields.
+      </p>
+      <p>
+        So 1 table with 1200 fields sounds pretty bad, but it could be worse. It is in fact worse. Access has 3 other rules that ruin your day.
+      </p>
+      <p>
+        Rule 2, tables cannot be more than 255 fields. So, instead of 2 tables, you get to a minimum of 6.
+      </p>
+      <p>
+        Rule 3, if you join 2 tables and access them with a form those 2 table's fields added together cannot be greater than 255 even if you aren't using all of the fields. So, now you're at 8 tables. 
+      </p>
+      <p>
+        Rule 4, Access does not have a transpose function for SQL. So, in order to use the the table with 18 fields, that's actually decent, you have to make a 9th table to
+        execute a homebrew transpose function across the other 7 tables. This table is promptly deleted as it shouldn't have needed to exist in the first place.
+      </p>
+      <p>
+        Making this program was an exercise in bashing my head against a wall, and everytime I came up with something clever Access would tell me I wasn't allowed to do that.
+        So yeah, this is my favorite creation. I like it when the computer fights me. It's just fun.
+      </p>
+    </div>,
+    <a href="https://github.com/Naomi-Eckhoff/filter-condition-access/tree/main" target="_blank" rel="noreferrer">
+      <p>
+        Repository Link
+      </p>
+    </a>
   ],
   [
     <h3>War Game Calculator</h3>,
     <a 
-      href="https://docs.google.com/spreadsheets/d/1WPKTcP0T9pA5KS8s5LACuwLPzzkwvt4Z_Opq-1ydHnc/edit?usp=sharing" rel="noopener">
+      href="https://docs.google.com/spreadsheets/d/1WPKTcP0T9pA5KS8s5LACuwLPzzkwvt4Z_Opq-1ydHnc/edit?usp=sharing" target="_blank" rel="noreferrer">
       <img src={warCalculator}
         alt="A google sheets document written to calculate optimal troop formations for an online game" />
     </a>,
-    <p>This is an excel spreadsheet I spent nearly 6 months developing to optimize warfare in an online game. The math gets incredibly complex and I did not include the regression analysis necessary to find some of the formulas. Other formulas were generated via trial and error. This serves as an example of how my mind works when presented with an extremely large and complex problem. It boastered performance that surpassed or parred the most experienced players in the world. They wanted to keep their formations secret. I gave power to the people.</p>,
-    <a href="https://docs.google.com/spreadsheets/d/1WPKTcP0T9pA5KS8s5LACuwLPzzkwvt4Z_Opq-1ydHnc/edit?usp=sharing" rel="noopener"><p>Deployed Link</p></a>
+    <div>
+      <p>
+        This is an excel spreadsheet I spent nearly 6 months developing to optimize warfare in an online game.
+      </p>
+      <p>
+        The math gets complex and I did not include the regression analysis necessary to find some of the formulas. Other formulas were generated via trial and error.
+        There is a great deal of internal logic and it boasted performance that surpassed or parred the most experienced players in the game.
+      </p>
+      <p>  
+        While this project is more math than coding I encourage you to click around the cells and shun me for being an obsessive nerd.
+      </p>
+    </div>,
+    <a href="https://docs.google.com/spreadsheets/d/1WPKTcP0T9pA5KS8s5LACuwLPzzkwvt4Z_Opq-1ydHnc/edit?usp=sharing" target="_blank" rel="noreferrer">
+      <p>
+        Deployed Link
+      </p>
+    </a>
   ],
   [
     <h3>Studious</h3>,
     <a 
-      href="https://protected-dusk-79081.herokuapp.com/" rel="noopener">
+      href="https://protected-dusk-79081.herokuapp.com/" target="_blank" rel="noreferrer">
       <img src={studious} alt="" />
     </a>,
-    <p>Studious was a group project designed to connect students and teachers for the purposes of classes and meetings. It makes use of sql for its back end.</p>,
-    <a href="https://protected-dusk-79081.herokuapp.com/" rel="noopener"><p>Deployed Link</p></a>,
-    <a href="https://github.com/kcbryan10/Studious" rel="noopener"><p>Repository Link</p></a>,
+    <div>
+      <p>
+        Studious was a group project designed to connect students and teachers for the purposes of classes and meetings. It makes use of sql for its back end. Overall it's pretty simple.
+      </p>
+    </div>,
+    <a href="https://protected-dusk-79081.herokuapp.com/" target="_blank" rel="noreferrer">
+      <p>
+        Deployed Link
+      </p>
+    </a>,
+    <a href="https://github.com/kcbryan10/Studious" target="_blank" rel="noreferrer">
+      <p>
+        Repository Link
+      </p>
+    </a>,
   ],
   [
     <h3>Subtrackt</h3>,
     <a 
-      href="https://quiet-wildwood-89723.herokuapp.com/" rel="noopener">
+      href="https://quiet-wildwood-89723.herokuapp.com/" target="_blank" rel="noreferrer">
       <img src={subtrackt} alt="" />
     </a>,
-    <p>Subtrackt was a group project using the MERN stack to track subscriptions and find tv shows and movies that are available on those subscriptions</p>,
-    <a href="https://quiet-wildwood-89723.herokuapp.com/" rel="noopener"><p>Deployed Link</p></a>,
-    <a href="https://github.com/ramantv/Subscription-Tracker" rel="noopener"><p>Repository Link</p></a>,
+    <div>
+      <p>
+        Subtrackt was a group project using the MongoDB, Express, React, and NodeJS to track subscriptions and find tv shows and movies that are available on those subscriptions.
+        Just a basic budgetary website.
+      </p>
+    </div>,
+    <a href="https://quiet-wildwood-89723.herokuapp.com/" target="_blank" rel="noreferrer">
+      <p>
+        Deployed Link
+      </p>
+    </a>,
+    <a href="https://github.com/ramantv/Subscription-Tracker" target="_blank" rel="noreferrer">
+      <p>
+        Repository Link
+      </p>
+    </a>,
   ],
   [
     <h3>Dinner And A Movie</h3>,
     <a 
-      href="https://baxters4karma.github.io/recipe-maker/" rel="noopener">
+      href="https://baxters4karma.github.io/recipe-maker/" target="_blank" rel="noreferrer">
       <img src={mealAndMovie} alt="Meal and Movie Group Project" />
     </a>,
-    <p>This was the first group project we did at our boot camp. It's fairly basic lacking even a database. It uses local storage for most of it's data purposes.</p>,
-    <a href="https://baxters4karma.github.io/recipe-maker/" rel="noopener"><p>Deployed Link</p></a>,
-    <a href="https://github.com/christinedbaxter/recipe-maker" rel="noopener"><p>Repository Link</p></a>,
+    <div>
+      <p>
+        This was the first group project we did at our boot camp. It's designed to select a random movie and meal based off of genre and meal type.
+        It lacks a database and uses local storage.
+      </p>
+    </div>,
+    <a href="https://baxters4karma.github.io/recipe-maker/" target="_blank" rel="noreferrer">
+      <p>
+        Deployed Link
+      </p>
+    </a>,
+    <a href="https://github.com/christinedbaxter/recipe-maker" target="_blank" rel="noreferrer">
+      <p>
+        Repository Link
+      </p>
+    </a>,
   ],
 ];
 
