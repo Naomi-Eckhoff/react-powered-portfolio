@@ -1,23 +1,25 @@
 {
   "files": {
-    "main.css": "/react-powered-portfolio/static/css/main.7eb9dfb7.css",
-    "main.js": "/react-powered-portfolio/static/js/main.6257621a.js",
+    "main.css": "/react-powered-portfolio/static/css/main.2655adb4.css",
+    "main.js": "/react-powered-portfolio/static/js/main.f394b23c.js",
     "static/js/787.76e9f1fb.chunk.js": "/react-powered-portfolio/static/js/787.76e9f1fb.chunk.js",
     "static/media/warCalculator.jpg": "/react-powered-portfolio/static/media/warCalculator.d7da9d5ac8efdf5ca1a2.jpg",
     "static/media/studious.jpg": "/react-powered-portfolio/static/media/studious.8c43a21c7e4f1f0f9788.jpg",
     "static/media/subtrackt.jpg": "/react-powered-portfolio/static/media/subtrackt.26e0b2de8a4b8aa9c3ae.jpg",
+    "static/media/hatchwaysMessenger.png": "/react-powered-portfolio/static/media/hatchwaysMessenger.e6e7a09e15ebb046b3f6.png",
     "static/media/filterDatabase.jpg": "/react-powered-portfolio/static/media/filterDatabase.a64989fae3bc565ec8c4.jpg",
+    "static/media/hatchwaysFrontEnd.png": "/react-powered-portfolio/static/media/hatchwaysFrontEnd.625fcd3c6749d77a5b28.png",
     "static/media/mealAndMovie.jpg": "/react-powered-portfolio/static/media/mealAndMovie.dc91327079beee967354.jpg",
     "static/media/KUCert.jpg": "/react-powered-portfolio/static/media/KUCert.a32a99b8b85b98a53560.jpg",
     "static/media/resume.pdf": "/react-powered-portfolio/static/media/resume.6b6309528e12095f63dd.pdf",
     "static/media/myPicture.jpg": "/react-powered-portfolio/static/media/myPicture.c4904faeabe40f8aa81b.jpg",
     "index.html": "/react-powered-portfolio/index.html",
-    "main.7eb9dfb7.css.map": "/react-powered-portfolio/static/css/main.7eb9dfb7.css.map",
-    "main.6257621a.js.map": "/react-powered-portfolio/static/js/main.6257621a.js.map",
+    "main.2655adb4.css.map": "/react-powered-portfolio/static/css/main.2655adb4.css.map",
+    "main.f394b23c.js.map": "/react-powered-portfolio/static/js/main.f394b23c.js.map",
     "787.76e9f1fb.chunk.js.map": "/react-powered-portfolio/static/js/787.76e9f1fb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7eb9dfb7.css",
-    "static/js/main.6257621a.js"
+    "static/css/main.2655adb4.css",
+    "static/js/main.f394b23c.js"
   ]
 }
