@@ -101,11 +101,18 @@ const items = [
     <h3>Hatchways Front End</h3>,
     <a 
       href="https://naomi-eckhoff.github.io/hatchways-front-end/" target="_blank" rel="noreferrer">
-      <img src={hatchwaysFrontEnd} alt="An application too look up and tag preexisting people" />
+      <img src={hatchwaysFrontEnd} alt="An application too look up and tag preexisting user" />
     </a>,
     <div>
       <p>
-        Placeholder text    
+        This project was a challenge to build something that looked up users in a preexisting file using any means desired and to style it accordingly.
+      </p>
+      <p>
+        I chose to do this entirely with JS and CSS instead of using React or premade components as I felt I could use the practice.
+        This was a choice I grew to regret as it turned out I did need the practice. 
+        While it took much longer than it needed to using this method I did learn a wonderful way of using timeouts.
+        The thing that annoys me most about Javascript is just how difficult it can be to make it execute things asynchronously.
+        Learning that one trick was well worth the effort.
       </p>
     </div>,
     <a href="https://naomi-eckhoff.github.io/hatchways-front-end/" target="_blank" rel="noreferrer">
