@@ -88,7 +88,19 @@ const items = [
     </a>,
     <div>
       <p>
-        placeholder
+        This project was given in 3 steps with feedback and changes expected according to that feedback. It had a deadline of two weeks.
+      </p>
+      <p>
+        Step 1 was to fix the front end login and registration pages.
+      </p>
+      <p>
+        Step 2 was to update the UI, add unread messages to the app, and fix various incomplete functions.
+      </p>
+      <p>
+        Step 3 was to propose a change to the database to allow for chats with multiple users.
+      </p>
+      <p>
+        This project was unfortunately left incomplete due unexpected complications. I really should go back and finish this if only for my own learning.
       </p>
     </div>,
     <a href="https://github.com/Naomi-Eckhoff/f5470f" target="_blank" rel="noreferrer">
