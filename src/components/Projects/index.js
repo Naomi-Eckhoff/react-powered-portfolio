@@ -88,7 +88,7 @@ const items = [
     </a>,
     <div>
       <p>
-        This project was given in 3 steps with feedback and changes expected according to that feedback. It had a deadline of two weeks.
+        This was a full stack project given in 3 steps with feedback and changes expected according to that feedback. It had a deadline of two weeks.
       </p>
       <p>
         Step 1 was to fix the front end login and registration pages.
