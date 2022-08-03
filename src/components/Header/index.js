@@ -11,7 +11,7 @@ function Header() {
       <nav>
         <ul>
           <li>
-            <Nav.Link as={Link} to='/react-powered-portfolio'>
+            <Nav.Link as={Link} to='/about'>
               <span>
                 About
               </span>

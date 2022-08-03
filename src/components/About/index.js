@@ -20,13 +20,13 @@ function About() {
         <br />
         <p>
           I've worked on a variety of projects off and on throughout the years. Mostly videogame hacking, but
-          every once in a while I'd do something productive. The projects link above will take you to a carousel of my past work.
-          They are in no particular order and vary pretty widely in function.
+          I enjoy the challenge of web design because there are many ways to solve the same problem. I enjoy trying things until
+          I find something that works and sharing it with others. 
         </p>
         <br />
         <p>
-          Currently I am working on learning machine learning and python. I like data. There are very few things that make me happier than finding a completely
-          insane correlation between two seemingly unrelated things that turns out to be a better predictor of outcome than the old rational estimators.
+          Currently I am working on learning machine learning and python. When it comes to data and machine learning it combines my love of math and
+          my joy in finding the missing piece of the puzzle that explains how seemingly unrelated things can be predicted with the right data and equations. 
         </p>
       </div>
     </section >

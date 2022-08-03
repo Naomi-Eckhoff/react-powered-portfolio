@@ -12,6 +12,56 @@ import hatchwaysMessenger from '../../assets/images/hatchwaysMessenger.png';
 
 const items = [
   [
+    <h3>Subtrackt</h3>,
+    <a 
+      href="https://quiet-wildwood-89723.herokuapp.com/" target="_blank" rel="noreferrer">
+      <img src={subtrackt} alt="" />
+    </a>,
+    <div>
+      <p>
+        Subtrackt used MongoDB, Express, React, and NodeJS to track subscriptions and find tv shows and movies that are available on those subscriptions.
+      </p>
+      <p>
+        The email mahomes@nomail.com and the password 123abc should work to login.
+      </p>
+    </div>,
+    <a href="https://quiet-wildwood-89723.herokuapp.com/" target="_blank" rel="noreferrer">
+      <p>
+        Deployed Link
+      </p>
+    </a>,
+    <a href="https://github.com/ramantv/Subscription-Tracker" target="_blank" rel="noreferrer">
+      <p>
+        Repository Link
+      </p>
+    </a>,
+  ],
+  [
+    <h3>Studious</h3>,
+    <a 
+      href="https://protected-dusk-79081.herokuapp.com/" target="_blank" rel="noreferrer">
+      <img src={studious} alt="" />
+    </a>,
+    <div>
+      <p>
+        Studious was designed to connect students and teachers for the purposes of classes and meetings. It makes use of sql for its back end.
+      </p>
+      <p>
+        The email james@mail.com and the password password should work to login.
+      </p>
+    </div>,
+    <a href="https://protected-dusk-79081.herokuapp.com/" target="_blank" rel="noreferrer">
+      <p>
+        Deployed Link
+      </p>
+    </a>,
+    <a href="https://github.com/kcbryan10/Studious" target="_blank" rel="noreferrer">
+      <p>
+        Repository Link
+      </p>
+    </a>,
+  ],
+  [
     <h3>Access Filter Database Form Generator</h3>,
     <a href="https://github.com/Naomi-Eckhoff/filter-condition-access/tree/main" target="_blank" rel="noreferrer">
       <img src={filterDatabase}
@@ -139,51 +189,6 @@ const items = [
     </a>,
   ],
   [
-    <h3>Studious</h3>,
-    <a 
-      href="https://protected-dusk-79081.herokuapp.com/" target="_blank" rel="noreferrer">
-      <img src={studious} alt="" />
-    </a>,
-    <div>
-      <p>
-        Studious was a group project designed to connect students and teachers for the purposes of classes and meetings. It makes use of sql for its back end. Overall it's pretty simple.
-      </p>
-    </div>,
-    <a href="https://protected-dusk-79081.herokuapp.com/" target="_blank" rel="noreferrer">
-      <p>
-        Deployed Link
-      </p>
-    </a>,
-    <a href="https://github.com/kcbryan10/Studious" target="_blank" rel="noreferrer">
-      <p>
-        Repository Link
-      </p>
-    </a>,
-  ],
-  [
-    <h3>Subtrackt</h3>,
-    <a 
-      href="https://quiet-wildwood-89723.herokuapp.com/" target="_blank" rel="noreferrer">
-      <img src={subtrackt} alt="" />
-    </a>,
-    <div>
-      <p>
-        Subtrackt was a group project using the MongoDB, Express, React, and NodeJS to track subscriptions and find tv shows and movies that are available on those subscriptions.
-        Just a basic budgetary website.
-      </p>
-    </div>,
-    <a href="https://quiet-wildwood-89723.herokuapp.com/" target="_blank" rel="noreferrer">
-      <p>
-        Deployed Link
-      </p>
-    </a>,
-    <a href="https://github.com/ramantv/Subscription-Tracker" target="_blank" rel="noreferrer">
-      <p>
-        Repository Link
-      </p>
-    </a>,
-  ],
-  [
     <h3>Dinner And A Movie</h3>,
     <a 
       href="https://baxters4karma.github.io/recipe-maker/" target="_blank" rel="noreferrer">
@@ -191,8 +196,7 @@ const items = [
     </a>,
     <div>
       <p>
-        This was the first group project we did at our boot camp. It's designed to select a random movie and meal based off of genre and meal type.
-        It lacks a database and uses local storage.
+        This is designed to select a random movie and meal based off of genre and meal type. It uses local storage for saving data.
       </p>
     </div>,
     <a href="https://baxters4karma.github.io/recipe-maker/" target="_blank" rel="noreferrer">

@@ -15,11 +15,12 @@ function App() {
         <>
           <Header />
           <Switch>
-            <Route exact path='/react-powered-portfolio' component={About} />
+            <Route exact path='/About' component={About} />
+            <Route exact path='/react-powered-portfolio' component={Projects} />
             <Route exact path='/projects' component={Projects} />
             <Route exact path='/resume' component={Resume} />
             <Route exact path='/contact' component={Contact} />
-            <Route render={() => <h1 className='display-2'>Wrong page!</h1>} />
+            <Route component={Projects}  />
           </Switch>
           <Footer />
         </>
